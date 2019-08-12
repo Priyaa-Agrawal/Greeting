@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Greetings</title>
+    <style>
+    .bg{
+        background-image: url("./img2.jpg");
+        background-color: #cccccc;
+        height: 600px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    
+
+    .text {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color:navy;
+        font-size: 30px;
+    }
+    .button{
+        background-color: #f44336;
+        font-size: 16px;
+        padding: 14px 40px; 
+    }
+
+    .input{
+        background-color:khaki;
+        padding: 12px 20px;
+        font-size: 18px;
+        color: crimson;
+    }
+    </style>
+</head>
+<body >
+        
+    <div class="bg">
+    <div class="text">
+        <p id="message">
+               <h3>Best Wishes from: </h3> <input class="input" type="text" id="name">
+            <br>
+            <h3>Occasion</h3> <input class="input" type="text" id="occasion">
+            <br>
+            <br>
+            <button class="button" type="submit" onclick="wishes()" >Go!!</button>
+        </p>
+    </div>
+</div>
+
+
+    <script src="./wishes.js">
+    </script>
+</body>
+</html>
