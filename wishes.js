@@ -3,6 +3,11 @@ function wishes(){
         var event =  document.getElementById("occasion").value;
      window.location.href = "./wish.html?name="+wisher+"&event="+event;
 }
+function complements(){
+        var wisher = document.getElementById("name").value;
+        var event =  document.getElementById("occasion").value;
+     window.location.href = "./complements.html?name="+wisher+"&event="+event;
+}
 
 function display(){
 
